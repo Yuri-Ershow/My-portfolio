@@ -1,0 +1,58 @@
+// Style of the main content of the page skills.
+//---------------------
+//$height_main_content_rez: 75vh;
+//$width_right_column: 25%;
+//-----------------------
+$height_main_content_rez: 58vh;
+$width_main_content: 85%;
+@import "mixins";
+
+/*---------------*/
+
+.index_page_des {
+    margin: 3%;
+    // border: 1px solid red;
+}
+
+.index_page_des a {
+    @include main_page($font_main_page);
+}
+
+.wrapper_main_des {
+    width: $width_main_content;
+    height: $height_main_content_rez;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(177, 198, 235);
+    border: 3px solid rgb(25, 59, 117);
+    border-radius: 1em;
+}
+
+.wrapper_main_des h1 {
+    @include paragr_h1();
+    margin: 2%;
+}
+
+.wrap_main_des {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column_des {
+    background-color: rgb(35, 27, 110);
+    border: 2px solid rgb(69, 41, 136);
+    border-radius: 1em;
+}
+
+
+/*
+.wrapper_main_ab p {
+    font-size: 1.4em;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    padding: 0em 2em 2em 2em;
+}
+*/
+
+//----------------------------------
+//@media only screen and (min-width: 825px) and (max-width: 1368px)

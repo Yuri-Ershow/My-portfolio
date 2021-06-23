@@ -1,0 +1,35 @@
+// Style of the footer
+/*------------------------*/
+
+.footer {
+    height: 11vh;
+    flex-grow: 0;
+    position: relative;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.phone,
+.email,
+.github,
+.fbook {
+    border: 2px solid #fff;
+    border-radius: 0.9em;
+    padding: 0.5% 0.8%;
+}
+
+.copy {
+    font-size: 0.9em;
+    color: #000;
+    text-align: right;
+    font-weight: 600;
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.3em;
+}

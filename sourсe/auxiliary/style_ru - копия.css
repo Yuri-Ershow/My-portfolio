@@ -1,0 +1,232 @@
+body,
+.wrapper, h1, h2, h3 p {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: url("../images/backgr.jpg") 50%/100% 100% no-repeat;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.header {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gabriola";
+    color: #fff;
+    background-color: #2d2d2d;
+}
+
+.logo {
+    margin-left: 0.5%;
+    width: 15%;
+    border: 1px solid #ff8;
+}
+
+.header_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 45%;
+    height: 80%;
+    border: 1px solid #ff8;
+}
+
+.name {
+    height: 60%;
+    font-size: 2.5em;
+    margin-left: 30%;
+    border: 1px solid #ff8;
+    
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.header_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    margin-right: 2%;
+    border: 1px solid #ff8;
+}
+
+.list_menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.2em;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.main_left {
+    width: 28%;
+    border: 2.5px solid #fff;
+}
+
+.index_page {
+    width: 60%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 0.4em 0.8em;
+    border: 2.5px solid #fff;
+    border-radius: 0.9em;
+}
+
+.my_photo {
+    max-width: 100%;
+    padding: 2%;
+    margin: 5%;
+}
+
+.my_photo1 {
+    max-width: 210px;
+}
+
+.main_rigth {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 0.5em;
+    border: 1px solid green;
+}
+
+.top_clouds {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    border: 1px solid red;
+}
+
+.cloud_skills {
+    margin-top: 3%;
+    margin-left: 7%;
+}
+
+.cloud_design {
+    border: 1px solid brown;
+    margin-right: 5%;
+}
+
+.cloud_design img {
+    border: 1px solid red;
+}
+
+.words {
+    height: 15%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bottom_clouds {
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    border: 1px solid red;
+}
+
+.footer {
+    height: 11vh;
+    flex-grow: 0;
+    position: relative;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.phone,
+.email,
+.github,
+.fbook {
+    border: 2px solid #fff;
+    border-radius: 0.9em;
+    padding: 0.5% 0.8%;
+}
+
+.copy {
+    font-size: 0.9em;
+    color: #000;
+    text-align: right;
+    font-weight: 600;
+    position: absolute;
+    right: 0.5em;
+    bottom: 0.3em;
+}
+
+.main_content_rez {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 220, 205);
+    border: 3px solid red;
+}
+
+.my_photo_rez {
+    width: 25%;
+    border: 3px solid red;
+}
+
+.main_rigth_rez {
+    width: 70%;
+    border: 3px solid red;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_content_ab {
+    background-color: rgb(238, 220, 205);
+    border: 3px solid red;
+}
+
+.index_page_ab {
+    width: 25%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-left: 1%;
+    margin-top: 1%;
+    padding: 0.4em 0.8em;
+    border: 2.5px solid #fff;
+    border-radius: 0.9em;
+}
+
+.wrapper_main_ab {
+    display: flex;
+    justify-content: space-between;
+}

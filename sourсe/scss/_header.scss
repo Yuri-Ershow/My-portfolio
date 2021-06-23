@@ -1,0 +1,58 @@
+// Style of the header
+
+/*------------------------*/
+
+//@mixin my_logo() {}
+.header {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Gabriola";
+    color: #fff;
+    background-color: #2d2d2d;
+}
+
+.logo {
+    margin-left: 0.5%;
+    width: 15%;
+    //border: 1px solid rgb(255, 136, 225);
+}
+
+.header_center {
+    width: 45%;
+    font-size: 2.8em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin: auto;
+    //border: 1px solid #ff8;
+}
+
+.header_right {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    //border: 1px solid rgb(136, 255, 146);
+}
+
+.list_menu {
+    display: flex;
+    justify-content: space-around;
+    //margin: auto;
+    align-items: center;
+    // margin-top: 12%;
+    //list-style: none;
+    font-size: 1.6em;
+    //font-size: 1.7em;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+//@media only screen and (min-width: 825px) and (max-width: 1368px) {}

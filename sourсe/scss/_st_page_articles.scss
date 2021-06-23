@@ -1,0 +1,78 @@
+// Style of the main content of the page articles.
+//---------------------
+//$height_main_content_rez: 75vh;
+//$width_right_column: 25%;
+//-----------------------
+$height_main_content_rez: 58vh;
+$width_main_content: 85%;
+@import "mixins";
+
+/*-----------------*/
+
+.index_page_art {
+    margin: 3% 2%;
+}
+
+.index_page_art a {
+    @include main_page($font_main_page);
+}
+
+.wrapper_art {
+    height: $height_main_content_rez;
+    width: $width_main_content;
+    margin: 0 auto;
+    background-color: rgb(177, 198, 235);
+    border: 2px solid rgb(25, 59, 117);
+    border-radius: 1em;
+    @include paragr_h1();
+}
+
+.wrapper_art h1 {
+    margin: 2%;
+}
+
+.columns_art {
+    display: flex;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    //font-size: 1.2em;
+    //font-size: 0.9em;
+}
+
+
+/*
+.columns_art h2 {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2%;
+}
+*/
+
+.left_column_art,
+.right_column_art {
+    width: 45%;
+    height: 40vh;
+    text-align: left;
+    border: 1px solid rgb(67, 67, 175);
+    border-radius: 0.4em;
+    //color: rgb(23, 184, 58);
+}
+
+.left_column_art {
+    width: 35%;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.right_column_art {
+    width: 60%;
+}
+
+.left_column_art ul {
+    line-height: 1.2em;
+    box-sizing: border-box;
+    padding-left: 8%;
+}
+
+//----------------------------------
+//@media only screen and (min-width: 825px) and (max-width: 1368px)
